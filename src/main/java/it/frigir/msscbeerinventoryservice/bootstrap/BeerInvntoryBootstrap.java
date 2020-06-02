@@ -1,7 +1,7 @@
-package guru.sfg.beer.inventory.service.bootstrap;
+package it.frigir.msscbeerinventoryservice.bootstrap;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.sfg.beer.inventory.service.repositories.BeerInventoryRepository;
+import it.frigir.msscbeerinventoryservice.domain.BeerInventory;
+import it.frigir.msscbeerinventoryservice.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
