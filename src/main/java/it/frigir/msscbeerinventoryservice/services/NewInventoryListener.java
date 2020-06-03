@@ -20,7 +20,7 @@ public class NewInventoryListener {
     @JmsListener(destination = JmsConfig.NEW_INVENTORY_QUEUE)
     public void lister(NewInventoryEvent newInventoryEvent) {
 
-        log.debug("Received new inventory request");
+        log.debug("Got new inventory request");
 
         BeerDto beerDto = newInventoryEvent.getBeerDto();
 
