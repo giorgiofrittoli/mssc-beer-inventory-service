@@ -1,10 +1,10 @@
 package it.frigir.msscbeerinventoryservice.services;
 
+import it.frigir.brewery.model.BeerDto;
+import it.frigir.brewery.model.event.NewInventoryEvent;
 import it.frigir.msscbeerinventoryservice.config.JmsConfig;
 import it.frigir.msscbeerinventoryservice.domain.BeerInventory;
 import it.frigir.msscbeerinventoryservice.repositories.BeerInventoryRepository;
-import it.frigir.msscbeerservice.events.NewInventoryEvent;
-import it.frigir.msscbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;

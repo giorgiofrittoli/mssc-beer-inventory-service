@@ -1,6 +1,6 @@
-package it.frigir.common.events;
+package it.frigir.brewery.model.event;
 
-import it.frigir.msscbeerservice.web.model.BeerDto;
+import it.frigir.brewery.model.BeerDto;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor

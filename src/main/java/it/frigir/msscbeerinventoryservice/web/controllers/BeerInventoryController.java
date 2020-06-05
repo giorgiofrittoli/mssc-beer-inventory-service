@@ -2,7 +2,7 @@ package it.frigir.msscbeerinventoryservice.web.controllers;
 
 import it.frigir.msscbeerinventoryservice.repositories.BeerInventoryRepository;
 import it.frigir.msscbeerinventoryservice.web.mappers.BeerInventoryMapper;
-import it.frigir.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import it.frigir.brewery.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
