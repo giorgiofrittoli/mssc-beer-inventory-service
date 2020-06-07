@@ -1,7 +1,7 @@
 package it.frigir.msscbeerinventoryservice.services;
 
-import it.frigir.brewery.model.event.BeerOrderDto;
-import it.frigir.brewery.model.event.BeerOrderLineDto;
+import it.frigir.brewery.model.BeerOrderDto;
+import it.frigir.brewery.model.BeerOrderLineDto;
 import it.frigir.msscbeerinventoryservice.domain.BeerInventory;
 import it.frigir.msscbeerinventoryservice.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;

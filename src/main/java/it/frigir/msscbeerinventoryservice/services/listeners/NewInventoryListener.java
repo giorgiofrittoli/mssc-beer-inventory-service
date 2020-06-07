@@ -1,4 +1,4 @@
-package it.frigir.msscbeerinventoryservice.services;
+package it.frigir.msscbeerinventoryservice.services.listeners;
 
 import it.frigir.brewery.model.BeerDto;
 import it.frigir.brewery.model.event.NewInventoryEvent;
